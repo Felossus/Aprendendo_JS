@@ -5,34 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #area {
-            display: block;
-            background: red;
-            color: white;
-            width: 200px;
-            height: 200px;
-            text-align: center;
-            line-height: 200px;
-            font-size: 2em;
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
     <div id="area" onclick="clicar()" onmouseenter="entrou()">
         CLIQUE
     </div>
-    <script>
-        function clicar(){
-            var area = document.getElementById("area")
-            area.innerText = "CLICOU"
-            
-        }
-        function entrou(){
-            var area = document.getElementById("area")
-            area.style.background = 'blue'
-        }
-    </script>
+    <script src="js\javascript.js"></script>
 </body>
 </html>
